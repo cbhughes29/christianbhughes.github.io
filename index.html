@@ -4,43 +4,69 @@
   <meta charset="UTF-8">
   <title>Christian B. Hughes</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
   <style>
     body {
-      font-family: Garamond, serif;
+      font-family: 'EB Garamond', Garamond, serif;
+      background-color: #f9fbfd;
+      color: #1c2a4b;
       max-width: 800px;
       margin: 3rem auto;
-      padding: 0 1rem;
-      color: #111;
-      background-color: #fff;
+      padding: 0 1.5rem;
+      line-height: 1.7;
     }
     h1 {
-      font-size: 2.5em;
-      margin-bottom: 0.2em;
+      font-size: 2.8em;
+      margin-bottom: 0.1em;
+      color: #14397a;
     }
     h2 {
       margin-top: 2em;
-      font-size: 1.4em;
-      color: #444;
+      font-size: 1.5em;
+      color: #2d4a7d;
+    }
+    em {
+      color: #3e5e94;
     }
     a {
-      color: #004080;
+      color: #285ec6;
       text-decoration: none;
     }
     a:hover {
       text-decoration: underline;
     }
+    img {
+      max-width: 150px;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .bio {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
     footer {
       margin-top: 4rem;
       font-size: 0.9em;
-      color: #777;
+      color: #888;
     }
   </style>
 </head>
 <body>
-  <h1>Christian B. Hughes</h1>
-  <p><em>Symbolic Dynamics • Interval Exchanges • Combinatorics on Words</em></p>
 
-  <p>I am an undergraduate computer science student at CTU (Czech Technical University) in Prague, currently working on symbolic dynamics, Rauzy induction, and languages of interval exchange transformations.</p>
+  <div class="bio">
+    <img src="headshot.png" alt="Christian B. Hughes">
+    <div>
+      <h1>Christian B. Hughes</h1>
+      <p><em>Symbolic Dynamics • Interval Exchanges • Combinatorics on Words</em></p>
+      <p>I am an undergraduate computer science student at CTU (Czech Technical University) in Prague, currently working on symbolic dynamics, Rauzy induction, and languages of interval exchange transformations.</p>
+    </div>
+  </div>
 
   <h2>Publications</h2>
   <ul>
@@ -59,5 +85,6 @@
   <footer>
     <p>&copy; 2025 Christian B. Hughes</p>
   </footer>
+
 </body>
 </html>
