@@ -111,5 +111,16 @@
   </footer>
 
   <script src="https://efreecode.com/js.js" id="eXF-cbhughes-0" async defer></script>
+
+  <script>
+  const ua = navigator.userAgent;
+  const isWin7 = ua.includes("Windows NT 6.1");
+  const isOpera = ua.includes("OPR");
+
+  if (isWin7 && isOpera) {
+    alert("Hey Houston... Windows 7? Opera? At 2AM? Again? Are the stars at least big and bright?");
+  }
+</script>
+  
 </body>
 </html>
