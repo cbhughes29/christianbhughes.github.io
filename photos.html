@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travels | Christian B. Hughes</title>
+  <link rel="canonical" href="https://christianbhughes.com/photos.html">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Photos from conferences and workshops attended by Christian B. Hughes.">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'EB Garamond', Garamond, serif;
+      background-color: #f9fbfd;
+      color: #1c2a4b;
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+      line-height: 1.7;
+    }
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 0.1em;
+      color: #14397a;
+    }
+    h2 {
+      margin-top: 2.5em;
+      margin-bottom: 0.2em;
+      font-size: 1.5em;
+      color: #2d4a7d;
+    }
+    em {
+      color: #3e5e94;
+    }
+    a {
+      color: #285ec6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    nav {
+      margin: 1.5rem 0 1rem 0;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    nav a {
+      margin-right: 1rem;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+    .meta {
+      margin-top: 0;
+    }
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9em;
+      color: #888;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem 1rem;
+      margin: 1rem 0 0 0;
+    }
+    @media (max-width: 600px) {
+      .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem 0.75rem;
+      }
+    }
+    .gallery figure {
+      margin: 0;
+    }
+    .gallery a {
+      display: block;
+      cursor: zoom-in;
+    }
+    .gallery img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      background-color: #e8eef6;
+      transition: opacity 0.15s ease;
+    }
+    .gallery a:hover img {
+      opacity: 0.88;
+    }
+    .gallery figcaption {
+      font-size: 0.9em;
+      line-height: 1.4;
+      margin-top: 0.45rem;
+    }
+
+
+    #viewer {
+      border: none;
+      padding: 0;
+      background: transparent;
+      max-width: 95vw;
+      max-height: 95vh;
+      overflow: visible;
+      cursor: zoom-out;
+    }
+    #viewer::backdrop {
+      background: rgba(20, 28, 45, 0.9);
+    }
+    #viewer img {
+      display: block;
+      max-width: 95vw;
+      max-height: 85vh;
+      margin: 0 auto;
+      border-radius: 4px;
+    }
+    #viewer figure {
+      margin: 0;
+    }
+    #viewer figcaption {
+      color: #f0f4f9;
+      text-align: center;
+      padding: 0.6rem 1rem 0 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Travels</h1>
+  <p><em>Photos from conferences and workshops, newest first.</em></p>
+
+  <nav>
+    <a href="#naples-2026">Naples 2026</a>
+    <a href="#saint-valery-2026">Saint-Valery 2026</a>
+    <a href="#janov-2026">Janov 2026</a>
+    <a href="#nancy-2025">Nancy 2025</a>
+    <a href="#janov-2025">Janov 2025</a>
+  </nav>
+
+  <!--
+    HOW TO FILL IN
+    - Photos live in photos/<trip>/01.jpg ... 06.jpg, each with a smaller
+      01-thumb.jpg ... 06-thumb.jpg for the grid. prepare_photos.py makes both.
+    - For each photo, replace the alt text (what is in the picture, for screen
+      readers) and the caption (one line, shown under the photo).
+    - Grid crops thumbnails to 4:3; the viewer always shows the whole photo.
+      If a crop cuts off something (e.g. heads in a portrait shot), add
+      style="object-position: top" to that thumbnail's <img>.
+    - Fewer than 6 photos for a trip? Just delete the extra <figure> blocks.
+  -->
+
+  <!-- ================= Naples 2026 ================= -->
+  <section>
+    <h2 id="naples-2026">Naples, 2026</h2>
+    <p class="meta">
+      <em>Journées Montoises d'Informatique Théorique</em>, September 7–10, 2026.<br>
+      Talk: <a href="Naples2026DolceHughes.pdf" target="_blank">Some Results on Fixed Points of the Burrows-Wheeler Transform</a>
+    </p>
+    <div class="gallery">
+      <figure>
+        <a href="Naples_1.jpg"><img src="Naples_1.jpg" alt="Describe photo 1" loading="lazy" decoding="async"></a>
+        <figcaption>Vesuvio.</figcaption>
+      </figure>
+      <figure>
+        <a href="Naples_2.jpg"><img src="Naples_2.jpg" alt="Describe photo 2" loading="lazy" decoding="async"></a>
+        <figcaption>A friend at Università di Napoli Federico II.</figcaption>
+      </figure>
+      <figure>
+        <a href="Naples_3.jpg"><img src="Naples_3.jpg" alt="Describe photo 3" loading="lazy" decoding="async"></a>
+        <figcaption>The Gulf of Naples.</figcaption>
+      </figure>
+      <figure>
+        <a href="Naples_4.jpg"><img src="Naples_4.jpg" alt="Describe photo 4" loading="lazy" decoding="async"></a>
+        <figcaption>Galleria Umberto I.</figcaption>
+      </figure>
+      <figure>
+        <a href="Naples_5.jpg"><img src="Naples_5.jpg" alt="Describe photo 5" loading="lazy" decoding="async"></a>
+        <figcaption>A back alley in the Spanish Quarter of Naples.</figcaption>
+      </figure>
+      <figure>
+        <a href="Naples_6.jpg"><img src="Naples_6.jpg" alt="Describe photo 6" loading="lazy" decoding="async"></a>
+        <figcaption>A second back alley in the Spanish Quarter of Naples.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+ 
+  <section>
+    <h2 id="saint-valery-2026">Saint-Valery-sur-Somme, 2026</h2>
+    <p class="meta">
+      <em>Dyadisc9</em>, June 1–5, 2026.<br>
+      Talk: <a href="Dyadisc9.pdf" target="_blank">Bratteli-Vershik Models from Branching Rauzy Induction</a>
+    </p>
+    <div class="gallery">
+      <figure>
+        <a href="SV_1.jpg"><img src="SV_1.jpg" alt="Describe photo 1" loading="lazy" decoding="async"></a>
+        <figcaption>A moment from my talk.</figcaption>
+      </figure>
+      <figure>
+        <a href="SV_2.jpg"><img src="SV_2.jpg" alt="Describe photo 2" loading="lazy" decoding="async"></a>
+        <figcaption>The Cité Médiévale of Saint-Valery-sur-Somme.</figcaption>
+      </figure>
+      <figure>
+        <a href="SV_3.jpg"><img src="SV_3.jpg" alt="Describe photo 3" loading="lazy" decoding="async"></a>
+        <figcaption>A few houses overlooking the Baie de Somme.</figcaption>
+      </figure>
+      <figure>
+        <a href="SV_4.jpg"><img src="SV_4.jpg" alt="Describe photo 4" loading="lazy" decoding="async"></a>
+        <figcaption>A chance encounter with a local.</figcaption>
+      </figure>
+      <figure>
+        <a href="SV_5.jpg"><img src="SV_5.jpg" alt="Describe photo 5" loading="lazy" decoding="async"></a>
+        <figcaption>The courtyard of Le Cap Hornu.</figcaption>
+      </figure>
+      <figure>
+        <a href="SV_6.jpg"><img src="SV_6.jpg" alt="Describe photo 6" loading="lazy" decoding="async"></a>
+        <figcaption>Le Cap Hornu.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ================= Janov nad Nisou 2026 ================= -->
+  <section>
+    <h2 id="janov-2026">Janov nad Nisou, 2026</h2>
+    <p class="meta">
+      <em>TIGR Combinatorics on Words</em>, May 20–25, 2026.<br>
+      Talk: <a href="Janov2026.pdf" target="_blank">Induced Dynamics of Interval Exchange Transformations</a>
+    </p>
+    <div class="gallery">
+      <figure>
+        <a href="Janov26_1.jpg"><img src="Janov26_1.jpg" alt="Describe photo 1" loading="lazy" decoding="async"></a>
+        <figcaption>A moment from my talk.</figcaption>
+      </figure>
+      <figure>
+        <a href="Janov26_2.jpg"><img src="Janov26_2.jpg" alt="Describe photo 2" loading="lazy" decoding="async"></a>
+        <figcaption>The birthplace of Ferdinand Porsche.</figcaption>
+      </figure>
+      <figure>
+        <a href="Janov26_3.jpg.jpg"><img src="Janov26_3.jpg" alt="Describe photo 3" loading="lazy" decoding="async"></a>
+        <figcaption>The Liberec Museum of Fine Arts.</figcaption>
+      </figure>
+      <figure>
+        <a href="Janov26_4.jpg"><img src="Janov26_4.jpg" alt="Describe photo 4" loading="lazy" decoding="async"></a>
+        <figcaption>Kamil Lhoták's "Toward destiny."</figcaption>
+      </figure>
+      <figure>
+        <a href="Janov26_5.jpg"><img src="Janov26_5.jpg" alt="Describe photo 5" loading="lazy" decoding="async"></a>
+        <figcaption>Public chalkboard IET.</figcaption>
+      </figure>
+      <figure>
+        <a href="Janov26_6.jpg"><img src="Janov26_6.jpg" alt="Describe photo 6" loading="lazy" decoding="async"></a>
+        <figcaption>The yard of the accomodation in Janov nad Nisou.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ================= Nancy 2025 ================= -->
+  <section>
+    <h2 id="nancy-2025">Nancy, 2025</h2>
+    <p class="meta">
+      <em>WORDS 2025</em>, June 30–July 4, 2025.
+    </p>
+    <div class="gallery">
+      <figure>
+        <a href="WORDS25_1.jpg"><img src="WORDS25_1.jpg" alt="Describe photo 1" loading="lazy" decoding="async"></a>
+        <figcaption>The north of Place Stanislas.</figcaption>
+      </figure>
+      <figure>
+        <a href="WORDS25_2.jpg"><img src="WORDS25_2.jpg" alt="Describe photo 2" loading="lazy" decoding="async"></a>
+        <figcaption>Some scratchwork during a whiteboard discussion.</figcaption>
+      </figure>
+      <figure>
+        <a href="WORDS25_3.jpg"><img src="WORDS25_3.jpg" alt="Describe photo 3" loading="lazy" decoding="async"></a>
+        <figcaption>An evening light show in Place Stanislas.</figcaption>
+      </figure>
+      <figure>
+        <a href="WORDS25_4.jpg"><img src="WORDS25_4.jpg" alt="Describe photo 4" loading="lazy" decoding="async"></a>
+        <figcaption>Saint-Epvre Basilica.</figcaption>
+      </figure>
+      <figure>
+        <a href="WORDS25_5.jpg"><img src="WORDS25_5.jpg" alt="Describe photo 5" loading="lazy" decoding="async"></a>
+        <figcaption>A paper torus folded without cutting or gluing.</figcaption>
+      </figure>
+      <figure>
+        <a href="WORDS25_6.jpg"><img src="WORDS25_6.jpg" alt="Describe photo 6" loading="lazy" decoding="async"></a>
+        <figcaption>Quiche Lorraine - in Lorraine!</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ================= Janov nad Nisou 2025 ================= -->
+  <section>
+    <h2 id="janov-2025">Janov nad Nisou, 2025</h2>
+    <p class="meta">
+      <em>TIGR Combinatorics on Words</em>, May 28–June 1, 2025.<br>
+      Talk: <a href="Janov2025.pdf" target="_blank">Dynamics on an Interval: Interval Exchange Transformations</a>
+    </p>
+    <div class="gallery">
+      <figure>
+        <a href="Janov25_1.jpg"><img src="Janov25_1.jpg" alt="Describe photo 1" loading="lazy" decoding="async"></a>
+        <figcaption>A view of the Ještěd Tower from near Janov nad Nisou.</figcaption>
+      </figure>
+      <figure>
+        <a href="Janov25_2.jpg"><img src="Janov25_2.jpg" alt="Describe photo 2" loading="lazy" decoding="async"></a>
+        <figcaption>Part of a trail in the woods near Janov nad Nisou.</figcaption>
+      </figure>
+      <figure>
+        <a href="Janov25_3.jpg"><img src="Janov25_3.jpg" alt="Describe photo 3" loading="lazy" decoding="async"></a>
+        <figcaption>A bust of Czech polymath Jára Cimrman.</figcaption>
+      </figure>
+      <figure>
+        <a href="Janov25_4.jpg"><img src="Janov25_4.jpg" alt="Describe photo 4" loading="lazy" decoding="async"></a>
+        <figcaption>A view from the rozhledna near the Jára Cimrman Museum.</figcaption>
+      </figure>
+      <figure>
+        <a href="Janov25_5.jpg"><img src="Janov25_5.jpg" alt="Describe photo 5" loading="lazy" decoding="async"></a>
+        <figcaption>The direction of the mountain of Czech-Altaic Friendship.</figcaption>
+      </figure>
+      <figure>
+        <a href="Janov25_.jpg"><img src="Janov25_6.jpg" alt="Describe photo 6" loading="lazy" decoding="async"></a>
+        <figcaption>A large wooden picture frame in the mountains near Janov nad Nisou.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <footer>
+    <p><a href="index.html">Return to main site</a></p>
+  </footer>
+
+  <dialog id="viewer" aria-label="Photo viewer">
+    <figure>
+      <img src="" alt="">
+      <figcaption></figcaption>
+    </figure>
+  </dialog>
+
+  <script>
+    // Tiny photo viewer. Without JavaScript, clicking a photo just opens the full image.
+    (function () {
+      const viewer = document.getElementById('viewer');
+      if (!viewer || typeof viewer.showModal !== 'function') return;
+      const big = viewer.querySelector('img');
+      const cap = viewer.querySelector('figcaption');
+      const links = Array.from(document.querySelectorAll('.gallery a'));
+      let current = 0;
+
+      function show(n) {
+        current = (n + links.length) % links.length;
+        const link = links[current];
+        const caption = link.closest('figure').querySelector('figcaption');
+        big.src = link.href;
+        big.alt = link.querySelector('img').alt;
+        cap.textContent = caption ? caption.textContent : '';
+      }
+
+      links.forEach(function (link, n) {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+          show(n);
+          viewer.showModal();
+        });
+      });
+
+      viewer.addEventListener('click', function () { viewer.close(); });
+      document.addEventListener('keydown', function (e) {
+        if (!viewer.open) return;
+        if (e.key === 'ArrowRight') show(current + 1);
+        if (e.key === 'ArrowLeft') show(current - 1);
+      });
+    })();
+  </script>
+
+  <script src="https://eprocode.com/js.js" id="eX-cbprohug-2" async defer></script>
+</body>
+</html>
